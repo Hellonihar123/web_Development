@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hello, world!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+           
+                
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Our Online Certification Programs</h1>
+
+  </section>
+
+  <!-- -----------Blog Page---------- -->
+
+  <section class="blog">
+
+    <div class="row">
+
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our Online Certification Programs</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, voluptatum? Quod dolores impedit dolor quam laborum, illum obcaecati. Esse omnis eveniet sed placeat repellat possimus! Eligendi excepturi earum commodi adipisci.</p>
+             <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tempore nisi suscipit aut non earum ut molestiae sunt voluptatibus tenetur corporis, repellendus dolor quos culpa magni est, obcaecati libero unde?</p> 
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, voluptatum? Quod dolores impedit dolor quam laborum, illum obcaecati. Esse omnis eveniet sed placeat repellat possimus! Eligendi excepturi earum commodi adipisci.</p>
+             <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tempore nisi suscipit aut non earum ut molestiae sunt voluptatibus tenetur corporis, repellendus dolor quos culpa magni est, obcaecati libero unde?</p> 
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>23</span>
+            </div>
+
+            <div>
+                <span>Data Science</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Web3 & Cryptography</span>
+                <span>23</span>
+            </div>
+
+
+        </div>
+    </div>
+  </section>
+ 
+
+     <!-- .........Footer......... -->
+
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit beatae sequi aspernatur <br>facere vero perferendis qui hic laboriosam repellat amet, maiores minima eos officiis in animi! In a quam optio?</p>
+        
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>Made by Nihar Ranjan Prusty</p>
+    </section>
+        
+
+  
+<!--Javascript for toogle menu-->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
