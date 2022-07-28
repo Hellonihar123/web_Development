@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hello, world!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+           
+                
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Our Courses</h1>
+
+  </section>
+
+   <!---------     Course   ------ -->
+   <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Sint maxime corrupti natus quo nemo repudiandae excepturi laudantium quas reiciendis? 
+        Fugit quisquam temporibus repellendus iusto soluta voluptatum ad doloremque eos ducimus.</p>
+         
+        <div class="row">
+            <div class="course-row">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ex placeat neque est reprehenderit accusamus repudiandae praesentium omnis explicabo laboriosam eveniet laborum itaque exercitationem dolorem, deleniti sed iusto architecto provident.</p>
+            </div>
+    
+            <div class="course-row">
+                <h3>Cryptography Full Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ex placeat neque est reprehenderit accusamus repudiandae praesentium omnis explicabo laboriosam eveniet laborum itaque exercitationem dolorem, deleniti sed iusto architecto provident.</p>
+            </div>
+    
+            <div class="course-row">
+                <h3>Fullstack Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ex placeat neque est reprehenderit accusamus repudiandae praesentium omnis explicabo laboriosam eveniet laborum itaque exercitationem dolorem, deleniti sed iusto architecto provident.</p>
+            </div>
+    
+        </div>
+    </section>   
+
+     <!-- ........Facilities........ -->
+
+     <section class="facilities">
+        <h1>Out Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim nostrum voluptatibus quod odit totam ab odio iure exercitationem facere maxime dolores accusantium, numquam qui nihil quam et ut harum!</p>
+         
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Big Cafeteria </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+
+  
+     <!-- .........Footer......... -->
+
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit beatae sequi aspernatur <br>facere vero perferendis qui hic laboriosam repellat amet, maiores minima eos officiis in animi! In a quam optio?</p>
+        
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>Made by Nihar Ranjan Prusty</p>
+    </section>
+        
+
+  
+<!--Javascript for toogle menu-->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
